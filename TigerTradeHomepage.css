@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+#logo{
+    background-image: url(Homepage.jpeg);
+    background-size:  contain;
+    width: 400px;
+    height: 400px;
+    margin-left: 530px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+h1{
+    color: black;
+    border-bottom: goldenrod;
+    background-color: goldenrod;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    color: #FFBB00;
+}
+input{
+    margin-top: 30px;
+}
+
+#submit{
+    color: black;
+    background-color:#FFBB00;
+    border-radius: 50px;
+    font-size: x-large;
+}

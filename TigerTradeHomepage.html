@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="TigerTradeHomepage.css"/>
+        <body>
+            <h1>Sign Up</h1>
+            <script>
+                function validateForm() {
+                    var password = document.getElementById("password").value;
+                    var passwordVerify = document.getElementById("passwordVerify").value;
+        
+                    if (password != passwordVerify) {
+                        alert("Please ensure that the passwords match");
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+                </script>
+                <script>
+                function validateForm2() { 
+                    var username = document.getElementById("username").value;
+                    if (username.length < 6) {
+                        alert("Username must be at least 6 characters long");
+                        return false;
+                    } else if (username.length > 24) {
+                        alert("Username must be at less than 24 characters long");
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+                </script>
+        <!--Signup-->
+        <form method="GET" onsubmit="return validateForm();" onclick="return validateForm2();" action="TigerTrade.html">
+            <h2>Signup</h2>
+            <div id="logo"></div>
+            <div class="container">
+                <label for="username"> Username</label>
+                <input type="text" name="username" id="username" placeholder="Username" required><br>
+                <label for="email"> Email</label>
+                <input type="text" name="email" id="email" placeholder="Email" required><br>
+                <label for="password"> Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required><br>
+                <label for="passwordVerify"> Confirm Password</label>
+                <input type="password" name="passwordVerify" id="passwordVerify" placeholder="Confirm Password" required><br>
+                <input type="submit">
+            </div>
+        </form>
+        </body>
+    </head>
+</html>

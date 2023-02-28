@@ -1,0 +1,22 @@
+body{
+    background-image: url(TigerTrade.jpeg);
+    background-size: cover;
+    background-color: black;
+}
+h2{
+    color: goldenrod;
+    font-size: 50px;
+}
+label{
+    color: goldenrod;
+}
+h3{
+    color: goldenrod;
+    font-size: 50px;
+}
+p{
+    color: goldenrod;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

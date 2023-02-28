@@ -1,0 +1,14 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #FFBB00;
+    border-bottom: #FFBB00;
+    border-radius: 50px;
+}
+body{
+    background-color: black;
+}
+h2{
+    color:white;
+}
