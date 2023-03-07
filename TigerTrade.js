@@ -35,7 +35,15 @@ const items = [
     description: "Description of item 3.",
     price: 15,
     image: "item3.jpg"
+  },
+  {
+    id: 4,
+    name: "Item 4",
+    description: "Description of item 4.",
+    price: 5,
+    image: "item4.jpg"
   }
+
 ];
 
 let cart = [];
