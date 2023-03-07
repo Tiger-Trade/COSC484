@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: black;
     text-align: center;
     font-size: xx-large;
@@ -11,4 +11,88 @@ body{
 }
 h2{
     color:white;
+} */
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
 }
+
+h1 {
+	margin: 0;
+}
+
+h2{
+    margin-right: 20px;
+}
+#buy, #sell {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px;
+}
+
+.item {
+	margin: 20px;
+	padding: 10px;
+	background-color: black;
+	text-align: center;
+}
+
+.item img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.sell-form label, .sell-form input, .sell-form textarea, .sell-form button {
+	display: block;
+	margin: 10px;
+}
+
+.sell-form label {
+	font-weight: bold;
+}
+
+.sell-form button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.sell-form button:hover {
+	background-color: #3e8e41;
+}
+
+#cart {
+	display: none;
+}
+
+#cart h2 {
+	margin-top: 0;
+}
+
+#cart-items {
+	list-style: none;
+	padding: 0;
+}
+#cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-total {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #clear-cart {
+    background-color: goldenrod;
+  }
+  
+  #clear-cart:hover {
+    background-color:  goldenrod;
+  }
